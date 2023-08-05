@@ -6,6 +6,6 @@
   tasks:
     - name: APT Package Updgrader
       apt: 
-        update_cache: true
+        update_cache: false
         upgrade: safe
       become: yes

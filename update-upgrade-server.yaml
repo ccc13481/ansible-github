@@ -5,10 +5,6 @@
   become_user: root
 
   tasks:
-    - name: APT Package Updater
-      apt: 
-        update_cache: yes
-      become: yes
     - name: APT Package Updgrader
       apt: 
         upgrade: yes

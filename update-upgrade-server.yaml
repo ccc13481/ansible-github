@@ -7,5 +7,5 @@
     - name: APT Package Updgrader
       apt: 
         update_cache: false
-        upgrade: safe
+        upgrade: dist
       become: yes

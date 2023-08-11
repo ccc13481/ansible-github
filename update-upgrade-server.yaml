@@ -1,11 +1,11 @@
 ---
 - hosts: all
 
-  become: yes
+  become: root
 
   tasks:
     - name: APT Package Updgrader
       apt: 
         update_cache: false
         upgrade: dist
-      become: yes
+      become: root
